@@ -7,6 +7,7 @@ while True:
     # show the frame as camera picture
     cv2.imshow("Video is playing", frame)
     # break the loop and out
+    # you can use any letter to command quitting
     if cv2.waitKey(1) & 0xFF == ord ('q'):
         print("Quitted")
         break
